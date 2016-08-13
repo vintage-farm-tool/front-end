@@ -1,0 +1,23 @@
+.edit-button, .page-quick-sidebar-back-to-list {
+  vertical-align: middle;
+    display: inline-block;
+    font-size: 14px;
+    color: #90a1af;
+}
+
+.edit-button:hover, .page-quick-sidebar-back-to-list:hover{
+  text-decoration: none;
+   color: #90a1af;
+}
+
+.logo-default {
+  width: 120px;
+}
+
+.page-quick-sidebar-nav{
+  padding:10px;
+}
+
+#livechart{
+  height: 75vh;
+}

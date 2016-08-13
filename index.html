@@ -1,11 +1,102 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sample App</title>
+    <title>Vintage Control Panel</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <link href="css/morris/morris.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/vintage.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="images/vintage-86x16.png" /> 
   </head>
-  <body>
-    <div id='root'>
+  <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+    <div class="page-wrapper">
+      <div class="page-header navbar navbar-fixed-top">
+          <!-- BEGIN HEADER INNER -->
+          <div class="page-header-inner ">
+              <!-- BEGIN LOGO -->
+              <div class="page-logo">
+                  <a href="index.html">
+                      <img src="images/vintage-86x16.png" alt="logo" class="logo-default" /> </a>
+                  
+              </div>
+              <!-- END LOGO -->
+              <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+              <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span></span>
+              </a>
+              <!-- END RESPONSIVE MENU TOGGLER -->
+              <!-- BEGIN TOP NAVIGATION MENU -->
+              <div class="top-menu">
+                  <ul class="nav navbar-nav pull-right">
+                     
+                      <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                      <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                      <li class="dropdown dropdown-quick-sidebar-toggler">
+                          <a href="javascript:;" class="dropdown-toggle">
+                              <i class="icon-logout"></i>
+                          </a>
+                      </li>
+                      <!-- END QUICK SIDEBAR TOGGLER -->
+                  </ul>
+              </div>
+              <!-- END TOP NAVIGATION MENU -->
+          </div>
+          <!-- END HEADER INNER -->
+      </div>
+
+      <div class="clearfix"> </div>
+
+      <div id='root' class="page-container"></div>
+
+      <div class="page-footer">
+          <div class="page-footer-inner"> 2016 &copy; Automated Farm By
+              <a target="_blank" href="#">Vintage</a> &nbsp;
+          </div>
+         
+      </div>
+
     </div>
     <script src="/static/bundle.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/js.cookie.min.js" type="text/javascript"></script>
+    <script src="js/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="js/morris.min.js" type="text/javascript"></script>
+    <script src="js/raphael-min.js" type="text/javascript"></script>
+    <script src="js/jquery.flot.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flot.resize.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="js/app.min.js" type="text/javascript"></script>
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="js/quick-sidebar.min.js" type="text/javascript"></script>
+    <!-- END THEME LAYOUT SCRIPTS -->
   </body>
 </html>
